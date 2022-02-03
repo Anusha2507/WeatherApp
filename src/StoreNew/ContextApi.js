@@ -17,11 +17,12 @@ const ContextApi = (props) => {
   
   return (
     <>
-      <Inputcontext.Provider value={context}>
+    <Inputcontext.Provider value={context}>
         {props.children}
-      </Inputcontext.Provider>
+    </Inputcontext.Provider>
     </>
   );
 };
+
 export default Inputcontext;
 export { ContextApi };

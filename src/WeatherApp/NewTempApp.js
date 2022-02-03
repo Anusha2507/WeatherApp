@@ -26,8 +26,8 @@ const NewTempApp = () => {
 
         setCity(res.main);
         setLoading(false);
-
         setWeather([...weather, res]);
+        
     };
 
     fetchApi();
